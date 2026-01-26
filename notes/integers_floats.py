@@ -2,7 +2,6 @@
 
 sales_tax = float(input("how much is the sales tax: %"))/100
 
-
 total = round(price + (price*sales_tax), 2)
 
 print(total)"""
