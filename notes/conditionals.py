@@ -14,8 +14,8 @@ name = input("What is your name: ").strip().capitalize()
 if name == "Arthur":
     print("welcome King Arthur.")
     quest = input("what is your quest: ").strip().title()
-    if quest == "Holy Grail"
+    if quest == ("Holy Grail")
+    print = input("YAY,you are cool")
 else:
     print(f"{quest} lame quest but wtv i get it LOSER")
-else
     print(f"hello {name}!")
