@@ -7,10 +7,19 @@ int main(){
     float gpa = 3.98;
     char grade = 'A'; // single letter uses single quotes
     char name [] ="Eric";
+    int number;
+    char user[50];
 
+    printf("Tell me your name NOW!!!! ONLY YOUR NAME\n");
+    scanf("%s", &user);
+
+    printf("what is your favorite number?\n");
+    scanf("%d", &number);
+
+    printf("your number is:%d\n", number);
     printf("it worked\n");
     printf("%d\n", age);
     printf("your gpa is: %f\n", gpa);
     printf("you have a %c in computer science\n",grade);
-    return 0; // required last line
+    return 0; // required last line in your main function
 }
