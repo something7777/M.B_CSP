@@ -8,4 +8,6 @@ printf("Tell me your name!: \n");
 scanf("%s",&user);
 
 printf("your name is %s ? Thats a cool name!!!\n", user);
+
+
 }
