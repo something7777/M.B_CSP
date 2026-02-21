@@ -4,7 +4,9 @@
 int main(){
     int number;
     char user[50];
-
+    int age; 
+    printf("how old are you %d?: \n");
+    scanf("%d",age);
     printf("Tell me your name NOW!!!! ONLY YOUR NAME\n");
     scanf("%s", &user);
     printf("what is your favorite number*only 1-10*?\n");
