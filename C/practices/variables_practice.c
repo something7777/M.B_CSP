@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 int main(){
-int number;
-
-printf("what is your favorite number?\n");
-scanf("%d", &number);
-printf("your favorie number is:%d? thats a great number!!!\n", number);
+  int name;
+  printf("what is your name?\n");
+  scanf("%d", &name);
+  printf("your name  is:%d? thats a great name!!!\n", name);
+  
 
 
 
