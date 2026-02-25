@@ -4,25 +4,36 @@
 
 
 int main(){
-    float number;
-    (char)printf("what is your monthly income?\n");
-    scanf("%d", (float)number);
-    float number1;
-    (char)printf("what is your monthly rent/mortgage?\n");
-    scanf("%d", (float)number1);
+    float income;
+    printf("what is your monthly income?\n");
+    scanf("%f", &income);
 
-    float number2;
-    (char)printf("what is your monthly utilities cost?\n");
-    scanf("%d", (float)number2);
+    float rent;
+    printf("what is your monthly rent/mortgage?\n");
+    scanf("%f", &rent);
 
-    float number3;
-    (char)printf("what is your monthly groceries cost?\n");
-    scanf("%d", (float)number3);
-    float number4;
-    (char)printf("what is your monthly transportation cost?\n");
-    scanf("%d", (float)number4);
+    float utilities;
+    printf("what is your monthly utilities cost?\n");
+    scanf("%f", &utilities);
+
+    float groceries;
+    printf("what is your monthly groceries cost?\n");
+    scanf("%f", &groceries);
+
+    float transportation;
+    printf("what is your monthly transportation cost?\n");
+    scanf("%f", &transportation);
+
+    float rent_percentage = (rent / income) * 100;
+    float utilities_percentage = (utilities / income) * 100;
+    float groceries_percentage = (groceries / income) * 100;
+    float transportation_percentage = (transportation / income) * 100;
+    
+    printf("Rent is: %.2f%%\n", rent_percentage);
+    printf("Utilities is: %.2f%%\n", utilities_percentage);
+    printf("Groceries is: %.2f%%\n", groceries_percentage);
+    printf("Transportation is: %.2f%%\n", transportation_percentage);
 
 
-
- return 0; 
+    return 0; 
 }
