@@ -20,6 +20,7 @@ int main() {
         printf("your grade is %d percent. That is an D.\n", grade);
     }else{
         printf("your grade is %d percent. that is an F.\n",grade);
+        return 0;
     }
 
     int num = -41;
