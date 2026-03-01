@@ -1,22 +1,21 @@
 //Mb period 7 tim.c
 #include <stdio.h>
+#include <time.h>
+#include <stdbool.h>
 
 int main() {
+
     int time;
-    printf("what time is it?\n");
+    printf("what time is it in military time?: \n");
     scanf("%d", &time);
 
-    if(time >= 0000){
-        printf("good night\n", time);
-    }else if(time >= 0700){
-        printf("its morning!good morning!!.\n", time);
-    } else if(time >= 70){
-        printf("your grade is %d percent. That is an c.\n", grade);
-    }else if(grade >= 60){
-        printf("your grade is %d percent. That is an D.\n", grade);
-    }else{
-        printf("your grade is %d percent. that is an F.\n",grade);
-        return 0;
+    if (time <= 11 && time >= 1){
+        printf("good morninggggg!!!!\n",time);
+    }else if (time >= 12 && time <= 15){
+        printf("good after noooonnnnnnnnnnn!!!! \n",time);
+    }else if (time >= 16 && time <= 19){
+        printf("iTS BED TIME GOOD NIGHT shhhhhhh.....zzzzz\n",time);
     }
-        return 0;
+
+    return 0;
 }
