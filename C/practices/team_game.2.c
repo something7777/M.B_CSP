@@ -13,8 +13,7 @@ char list_of_guessed_letters[100];
 
 int guessed_count = 0;
 
-
-
+bool won = false;
 
 
 int hangman(){
@@ -70,19 +69,6 @@ void game_loop(){
 
 
 int main(){
-        int i = 1;
-    while (i<= 10){
-        printf("%d, ", i);
-        i++;
-
-   
-        srand(time(NULL));
-
-        printf("\n%d\n", rand() % 14);
-    }
-
-    char word = 
-
     hangman();
 
 return 0;
