@@ -8,13 +8,12 @@ int main () {
     int i = 1;
     while (i<= 10){
             printf("%d, ", i);
-            i++; // increases variables i by 1
-    }
+            i++;
 
-    //set a random nuber
+   
     srand(time(NULL));
 
-    printf("\n%d\n", rand() % 11); // random number between 0 and 10
+    printf("\n%d\n", rand() % 14); // random number between 0 and 10
     printf("%d\n", (rand() %10) +1);
     printf("%d\n", (rand() %5) + 5);
     
